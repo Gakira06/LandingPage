@@ -1,0 +1,27 @@
+footer{
+    background-color: #fff;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    flex-shrink: 0;
+    padding: 40px 20px 40px 20px;
+}
+footer h1{
+    color: var(--Cor-primaria, #2807BC);
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+footer img{
+    width: 40px;
+    height: 41px;
+    flex-shrink: 0;
+}
+
+.contatos{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}

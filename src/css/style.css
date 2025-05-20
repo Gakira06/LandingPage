@@ -1,0 +1,426 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+body {
+    background-color: #DFDFDF ;
+}
+
+main{
+    padding: 20px;
+}
+
+.paginaprincipal{
+    margin-top: 50px;
+    display: flex;
+    width: 1268px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.parteEsquerda {
+    display: flex;
+    width: 651px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+    flex-shrink: 0;
+}
+
+.parteEsquerda h1{
+    align-self: stretch;
+    color: var(--Cor-titular, #1E1E28);
+    font-family: Inter;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+}
+
+.parteEsquerda p{
+    color: var(--Cor-de-corpo, #424557);
+
+    /* Subititulo */
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%; /* 30px */
+}
+
+.BotaoAzul{
+    background-color: #2807bc;
+    border-radius: 16px;
+    display: flex;
+    padding: 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+
+    color: #E4E4E4;
+
+    /* paragrafo */
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 24px */
+}
+
+.parteDireita{
+    background-color: #fff;
+    display: flex;
+    width: 40vw;
+    margin-right: 80px;
+    padding: 47px 0px 76px 50px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 33px;
+    flex-shrink: 0;
+}
+
+.pTitulo{
+    color: var(--Cor-de-corpo, #424557);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.parteDireita h2{
+    color: var(--Cor-titular, #1E1E28);
+    font-family: Inter;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.nubank{
+    display: flex;
+    width: 356px;
+    border-radius: 16px;
+    border: 1px solid #F0F0F0;
+    align-items: center;
+    
+}
+.logoNubank{
+    background-color: #891d99;
+    width: 48px;
+    margin: 6px;
+    padding: 10px 3px 10px 5px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    align-items: center;
+}
+.nubank p{
+    color: var(--Cor-de-corpo, #424557);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 10px;
+}
+
+.banco{
+    display: flex;
+    width: 356px;
+    border-radius: 16px;
+    border: 1px solid #F0F0F0;
+    align-items: center;
+}
+.logoBanco{
+    background-color: #00ff26;
+    width: 48px;
+    margin: 6px;
+    padding: 10px 3px 10px 5px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    align-items: center;
+}
+.banco p{
+    color: var(--Cor-de-corpo, #424557);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 10px;
+}
+
+.segundaParte{
+    margin-top: 140px;
+    padding: 49px 28px 105px 64px;
+    gap: 64px;
+
+    border-radius: 40px;
+    background: var(--Branco, #FFF);
+
+    /* Sombra */
+    box-shadow: 0px 28px 52px 0px rgba(0, 0, 0, 0.08);
+}
+
+.mensagemPrincipal{
+    display: flex;
+    padding: 49px 28px 105px 28px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 64px;
+
+    border-radius: 40px;
+    background: var(--Branco, #FFF);
+
+    /* Sombra */
+    box-shadow: 0px 28px 52px 0px rgba(0, 0, 0, 0.08);
+}
+
+.mensagemPrincipal h1{
+    width: 426px;
+    height: 97px;
+    flex-shrink: 0;
+
+    color: var(--Cor-titular, #1E1E28);
+
+    /* Título 2 */
+    font-family: Inter;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 48px */
+}
+.mensagemPrincipal p{
+    width: 698px;
+    height: 46px;
+    flex-shrink: 0;
+
+    color: var(--Cor-de-corpo, #424557);
+    text-align: justify;
+
+    /* Subsessão */
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%; /* 24px */
+}
+.vantagens{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 33px;
+    align-self: stretch;
+}
+.logosVantagens{
+    background: rgba(137, 29, 153, 0.30);
+    display: flex;
+    padding: 15px 15px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.vantagem{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    flex: 1 0 0;
+}
+.vantagem h3{
+    height: 22px;
+    align-self: stretch;
+    color: var(--Cor-titular, #1E1E28);
+
+    /* Titulo 3 */
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.vantagem p{
+    align-self: stretch;
+    color: var(--Cor-de-corpo, #424557);
+
+    /* paragrafo */
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 24px */
+}
+
+.parte3{
+    margin-top: 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.confianca{
+    display: flex;
+    width: 680px;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+.confianca h1{
+    height: 97px;
+    align-self: stretch;
+    color: var(--Cor-titular, #1E1E28);
+    text-align: center;
+    font-family: Inter;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.confianca p{
+    width: 469px;
+    height: 46px;
+    color: var(--Cor-de-corpo, #424557);
+    text-align: center;
+
+    /* Subsessão */
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%; /* 24px */
+}
+.dados{
+    margin-top: 40px;
+    justify-content: center;
+    display: inline-flex;
+    align-items: center;
+    text-align: center;
+    gap: 56px;
+    width: 100px;
+}
+.buttonMargin{
+    margin-top: 40px;
+}
+
+.parte4{
+    margin-top: 140px;
+    display: flex;
+    padding: 64px 54px 43px 54px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 72px;
+    border-radius: 52px;
+    background: var(--Cor-primaria, #2807BC);
+
+    /* Sombra */
+    box-shadow: 0px 28px 52px 0px rgba(0, 0, 0, 0.08);
+}
+#TituloParte4{
+    width: 508px;
+    height: 97px;
+    color: var(--Branco, #FFF);
+    font-family: Inter;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+#subtituloParte4{
+    width: 508px;
+    height: 46px;
+    color: var(--Branco, #FFF);
+
+    /* Subsessão */
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%; /* 24px */
+}
+.passoApasso{
+    display: flex;
+    align-items: center;
+    gap: 121px;
+    align-self: stretch;
+}
+.passo{
+    display: flex;
+    padding: 23px 23px 22px 23px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    flex: 1 0 0;
+    border-radius: 32px;
+    background: rgba(255, 255, 255, 0.24);
+}
+.passo h1{
+    align-self: stretch;
+    color: var(--Branco, #FFF);
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.passo h7{
+    align-self: stretch;
+    color: var(--Branco, #FFF);
+
+    /* Titulo 3 */
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.passo p{
+    height: 76px;
+    align-self: stretch;
+    color: var(--Branco, #FFF);
+
+    /* paragrafo */
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 24px */
+}
+
+.botaoBranco{
+    display: flex;
+    padding: 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 16px;
+    background: var(--Branco, #FFF);
+    color: var(--Cor-primaria, #2807BC);
+
+    /* paragrafo */
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 24px */
+}
+
+@media (max-widht: 122opx){
+    .paginaprincipal{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .vantagens{
+        flex-direction: column;
+        align-items: center;
+    }
+    .logosVantagens{
+        margin-bottom: 20px;
+    }
+}
