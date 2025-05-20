@@ -37,6 +37,6 @@ Passo a Passo Simples: Mostramos como é fácil começar a controlar as finança
 
 Este projeto foi criado com paixão por:
 
-[<img src="https://avatars.githubusercontent.com/u/74640103?v=4" width="50px;" alt="Foto de Perfil do GitHub de Gabriel Akira"/><br /><sub>**Gabriel Akira**</sub>](https://github.com/Gakira06)
+[<img src="https://avatars.githubusercontent.com/u/203848085?v=4" width="50px;" alt="Foto de Perfil do GitHub de Gabriel Akira"/><br /><sub>**Gabriel Akira**</sub>](https://github.com/Gakira06)
 
 **Email de contato:** gakirakiyohara@gmail.com
